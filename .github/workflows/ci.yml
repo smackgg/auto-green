@@ -18,7 +18,6 @@ jobs:
         run: |
           git config --local user.email "smackgg@gmail.com"
           git config --local user.name "smackgg"
-          git remote set-url origin git@github.com:smackgg/auto-green.git
           git pull --rebase
           git commit --allow-empty -m "a commit a day keeps your girlfriend away"
           git push
